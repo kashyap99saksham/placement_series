@@ -1,0 +1,16 @@
+Stack is a linear data structure.
+\n
+Applications of stack:
+1.Balancing of symbols
+2.Infix to Postfix /Prefix conversion
+3.Redo-undo features at many places like editors, photoshop.
+4.Forward and backward feature in web browsers
+5.Used in many algorithms like Tower of Hanoi, tree traversals, stock span problem, histogram problem.
+6.Other applications can be Backtracking, Knight tour problem, rat in a maze, N queen problem and sudoku solver
+7.In Graph Algorithms like Topological Sorting and Strongly Connected Components
+\n
+There are two ways to implement a stack:
+1.Using array
+2.Using linked list
+\n
+
