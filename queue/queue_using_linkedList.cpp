@@ -29,6 +29,10 @@ void dequeue()
     struct node *t = front;
     if(front == NULL && rear == NULL)
         cout<<"Underflow";
+    else if(front == rear)
+    {
+        front = rear = NULL;
+    }
     else
     {
         cout<<"Deleted Value -> "<<front->data<<endl;
