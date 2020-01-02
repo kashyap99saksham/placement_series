@@ -1,0 +1,4 @@
+Three types of traversing in trees:
+1).Pre-Order  : Root is at starting Then Left Then Right
+2).In-Order   : First left then Root is in between, Then Right 
+3).Post-Order : First Right Then Left Then Root is agt last
