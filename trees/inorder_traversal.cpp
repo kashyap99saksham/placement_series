@@ -1,3 +1,4 @@
+// TIME COMPLEXITY = O(n)
 #include<bits/stdc++.h>
 using namespace std;
 struct node
@@ -20,17 +21,17 @@ struct node* create()
     temp->next = create();
     return temp;    
 }
-void preorder(struct node *root)
+void inorder(struct node *root)
 {
     if(root==NULL)
         return;
-    preorder(root->prev);
+    inorder(root->prev);
     cout<<root->data;
-    preorder(root->next);
+    inorder(root->next);
 }
 int main()
 {
     struct node *root;
     root = create();
-    preorder(root);
+    inorder(root);
 }
