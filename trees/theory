@@ -1,5 +1,5 @@
-Four Types of tree traversal:
-1). PreOrder
-2). InOrder
-3). PostOrder
-4). Level Order
+Two Types of tree traversal:
+1) Depth First    2).Breadth First
+- PreOrder        - Level Order
+- InOrder
+- PostOrder
