@@ -30,14 +30,15 @@ void InOrder(struct node* root)
     struct node* p = root;
     while(1)
     {
-        while(p!=NULL)
+        while(p)
         {
             S.push(p);
             p = p->prev;
         }
         if(S.empty())
             break;
-        p = S.pop();
+        p = S.top();
+        S.pop();
         cout<<p->data;
         p = p->next;
     }
