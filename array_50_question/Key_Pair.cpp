@@ -38,3 +38,6 @@ int main()
         cout<<endl;
     }
 }
+
+// 5 4
+1 2 5 6 7
