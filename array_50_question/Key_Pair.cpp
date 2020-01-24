@@ -14,23 +14,21 @@ int main()
             cin>>val;
             v.push_back(val);   
         }
-        unordered_set<int> set;
-        for (auto i : v)
-        {
-            set.insert(i);
-        }
+        unordered_set<int> set1;
         bool check = false;
         for(auto i : v)
         {
             if(i<sum)
             {
                 int dif = sum-i;
-                if(set.find(dif)!=set.end())
+                if(set1.find(dif)!=set1.end())
                 {
                     check = true;
                     cout<<"Yes";
                     break;
                 }
+                else
+                    set1.insert(i);
             }
         }
         if(check==false)
@@ -38,6 +36,3 @@ int main()
         cout<<endl;
     }
 }
-
-// 5 4
-1 2 5 6 7
