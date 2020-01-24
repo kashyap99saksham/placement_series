@@ -42,7 +42,7 @@ void findMajority(int arr[], int size)
 	for(int i = 0; i < size; i++) 
 		m[arr[i]]++; 
 	int count = 0; 
-	for(auto i : m) 
+	for(auto i : m) 		//ITERATE MAP IN I
 	{ 
 		if(i.second > size / 2) 
 		{ 
