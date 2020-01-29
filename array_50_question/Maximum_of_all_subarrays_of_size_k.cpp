@@ -1,3 +1,15 @@
+// Method 2 (Use Self-Balancing BST)
+
+// Pick first k elements and create a Self-Balancing Binary Search Tree (BST) of size k.
+// Run a loop for i = 0 to n – k
+// Get the maximum element from the BST, and print it.
+// Search for arr[i] in the BST and delete it from the BST.
+// Insert arr[i+k] into the BST.
+// Time Complexity: Time Complexity of step 1 is O(K * Log k). Time Complexity of steps 2(a), 2(b) and 2(c) is O(Logk). Since steps 2(a), 2(b) and 2(c) are in a loop that runs n-k+1 times, time complexity of the complete algorithm is O(kLogk + (n-k+1)*Logk) which can also be written as O(N * Log k).
+
+
+
+// DEQUE : O(N) complexity
 #include<bits/stdc++.h>
 using namespace std;
 int main()
