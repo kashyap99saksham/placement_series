@@ -1,3 +1,5 @@
+// https://www.youtube.com/watch?v=vtJvbRlHqTA&t=114s 
+// VERY EASY AND SIMPLE APROCH BUT NOT ACCEPTED IN G4G DUE TO HIGHER VALUES
 #include<bits/stdc++.h>
 using namespace std;
 int main()
