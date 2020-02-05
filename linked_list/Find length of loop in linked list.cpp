@@ -1,7 +1,7 @@
-
+// USING FLOYD'S CYCLE
 int countNodes(struct Node *slow)  {  
     int res = 1;  
-    struct Node *temp = slow;  
+    struct Node *temp = slow;       //Basically   slow pointer is lying inside the loop
     while (temp->next != slow) {  
         res++;  
         temp = temp->next;  
