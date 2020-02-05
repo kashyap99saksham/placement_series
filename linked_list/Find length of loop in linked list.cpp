@@ -20,3 +20,5 @@ int countNodesinLoop(struct Node *head){
     }
     return 0;
 }
+
+// Connecting Git to vs code
