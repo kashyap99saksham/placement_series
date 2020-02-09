@@ -7,9 +7,6 @@ using namespace std;
 #define R 4 
 #define C 4 
 
-// Finds the maximum area under the histogram represented 
-// by histogram. See below article for details. 
-// https://www.geeksforgeeks.org/largest-rectangle-under-histogram/ 
 int maxHist(int row[]) 
 { 
 	// Create an empty stack. The stack holds indexes of 
