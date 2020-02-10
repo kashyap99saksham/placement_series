@@ -46,7 +46,6 @@ int maxHist(int row[])
 			max_area = max(area, max_area); 
 		} 
 	} 
-
 	// Now pop the remaining bars from stack and calculate area 
 	// with every popped bar as the smallest bar 
 	while (!result.empty()) 
