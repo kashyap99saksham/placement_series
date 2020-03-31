@@ -2,21 +2,31 @@
 using namespace std;
 int main()
 {
-    int test;
-    cin>>test;
-    while(test--)
+    int t;  cin>>t;
+    while(t--)
     {
-        int size,rot;
-        cin>>size>>rot; 
-        int *arr = new int[size];
-        for (int i = 0; i < size; i++)
-            cin>>arr[i];
-        for(int i=rot;i<size;i++)
-            cout<<arr[i];
-        for (int i = 0; i < rot; i++)
+        int size,shift;   cin>>size>>shift;
+        vector <int> v,temp;
+        for (int i = 0; i < shift; i++)
         {
-            cout<<arr[i];
+            int val;
+            cin>>val;
+            temp.push_back(val);
         }
-        cout<<endl;                  
-    }
+        for (int i = shift; i < size; i++)
+        {
+            int val;    cin>>val;
+            v.push_back(val);
+        }
+        for (int i = 0; i < shift; i++)
+        {
+            v.push_back(temp[i]);
+        }
+        for (int i = 0; i < size; i++)
+        {
+            cout<<v[i]<<" ";
+        }
+        cout<<endl;        
+    }       
 }
+
